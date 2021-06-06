@@ -3,7 +3,7 @@ import { JogadoresController } from './jogadores.controller';
 import { JogadoresService } from './jogadores.service';
 
 @Module({
-  controllers: [JogadoresController],
-  providers: [JogadoresService],
+    controllers: [JogadoresController],
+    providers: [JogadoresService],
 })
 export class JogadoresModule {}
